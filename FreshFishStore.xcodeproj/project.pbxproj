@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4C424D8D0BD4ABA486D72A /* Pods_FreshFishStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB09D973903D1EA2238B23B3 /* Pods_FreshFishStore.framework */; };
 		7E91C60A2191A923000B579D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6092191A923000B579D /* AppDelegate.swift */; };
-		7E91C60C2191A923000B579D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C60B2191A923000B579D /* ViewController.swift */; };
+		7E91C60C2191A923000B579D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C60B2191A923000B579D /* HomeViewController.swift */; };
 		7E91C60F2191A923000B579D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E91C60D2191A923000B579D /* Main.storyboard */; };
-		7E91C6122191A923000B579D /* FreshFishStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6102191A923000B579D /* FreshFishStore.xcdatamodeld */; };
 		7E91C6142191A924000B579D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E91C6132191A924000B579D /* Assets.xcassets */; };
 		7E91C6172191A924000B579D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E91C6152191A924000B579D /* LaunchScreen.storyboard */; };
+		7E91C6222191AC38000B579D /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6212191AC38000B579D /* SliderCell.swift */; };
+		7E91C6252191AD1A000B579D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6242191AD1A000B579D /* UIView.swift */; };
+		7E91C6272191BA57000B579D /* HomeViewController+CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6262191BA57000B579D /* HomeViewController+CV.swift */; };
+		7E91C62A2191C480000B579D /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6292191C480000B579D /* ApiService.swift */; };
+		7E91C62C2191C4A2000B579D /* Fish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C62B2191C4A2000B579D /* Fish.swift */; };
+		7E91C62E2191D6EE000B579D /* FishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C62D2191D6EE000B579D /* FishViewController.swift */; };
+		7E91C6322191D7DD000B579D /* FishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6312191D7DD000B579D /* FishCell.swift */; };
+		7E91C6342192302F000B579D /* Bill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C6332192302F000B579D /* Bill.swift */; };
+		7E91C63721923107000B579D /* AddProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C63621923107000B579D /* AddProduct.swift */; };
+		7E91C63A21926467000B579D /* BillViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C63921926467000B579D /* BillViewer.swift */; };
+		7E91C63C21926712000B579D /* BillCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E91C63B21926712000B579D /* BillCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7B6E782C655375C0F7BF3C /* Pods-FreshFishStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshFishStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-FreshFishStore/Pods-FreshFishStore.release.xcconfig"; sourceTree = "<group>"; };
 		7E91C6062191A923000B579D /* FreshFishStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FreshFishStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E91C6092191A923000B579D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7E91C60B2191A923000B579D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E91C60B2191A923000B579D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		7E91C60E2191A923000B579D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7E91C6112191A923000B579D /* FreshFishStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FreshFishStore.xcdatamodel; sourceTree = "<group>"; };
 		7E91C6132191A924000B579D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E91C6162191A924000B579D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E91C6182191A924000B579D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E91C6212191AC38000B579D /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
+		7E91C6242191AD1A000B579D /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		7E91C6262191BA57000B579D /* HomeViewController+CV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+CV.swift"; sourceTree = "<group>"; };
+		7E91C6292191C480000B579D /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		7E91C62B2191C4A2000B579D /* Fish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fish.swift; sourceTree = "<group>"; };
+		7E91C62D2191D6EE000B579D /* FishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishViewController.swift; sourceTree = "<group>"; };
+		7E91C6312191D7DD000B579D /* FishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishCell.swift; sourceTree = "<group>"; };
+		7E91C6332192302F000B579D /* Bill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bill.swift; sourceTree = "<group>"; };
+		7E91C63621923107000B579D /* AddProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProduct.swift; sourceTree = "<group>"; };
+		7E91C63921926467000B579D /* BillViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillViewer.swift; sourceTree = "<group>"; };
+		7E91C63B21926712000B579D /* BillCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCell.swift; sourceTree = "<group>"; };
+		A57896E17F7137EDCC9ADDFA /* Pods-FreshFishStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FreshFishStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FreshFishStore/Pods-FreshFishStore.debug.xcconfig"; sourceTree = "<group>"; };
+		AB09D973903D1EA2238B23B3 /* Pods_FreshFishStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FreshFishStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4C424D8D0BD4ABA486D72A /* Pods_FreshFishStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BB55A930098E3207C044A91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A57896E17F7137EDCC9ADDFA /* Pods-FreshFishStore.debug.xcconfig */,
+				2B7B6E782C655375C0F7BF3C /* Pods-FreshFishStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7E91C5FD2191A923000B579D = {
 			isa = PBXGroup;
 			children = (
 				7E91C6082191A923000B579D /* FreshFishStore */,
 				7E91C6072191A923000B579D /* Products */,
+				2BB55A930098E3207C044A91 /* Pods */,
+				9E28BFDB9F58DC9515C089EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +92,105 @@
 		7E91C6082191A923000B579D /* FreshFishStore */ = {
 			isa = PBXGroup;
 			children = (
+				7E91C6282191C472000B579D /* Apis Service */,
+				7E91C6232191ACC9000B579D /* Extensions */,
+				7E91C6202191AC2B000B579D /* Model */,
+				7E91C61F2191AC25000B579D /* View */,
+				7E91C61E2191AC20000B579D /* Controller */,
 				7E91C6092191A923000B579D /* AppDelegate.swift */,
-				7E91C60B2191A923000B579D /* ViewController.swift */,
 				7E91C60D2191A923000B579D /* Main.storyboard */,
 				7E91C6132191A924000B579D /* Assets.xcassets */,
 				7E91C6152191A924000B579D /* LaunchScreen.storyboard */,
 				7E91C6182191A924000B579D /* Info.plist */,
-				7E91C6102191A923000B579D /* FreshFishStore.xcdatamodeld */,
 			);
 			path = FreshFishStore;
+			sourceTree = "<group>";
+		};
+		7E91C61E2191AC20000B579D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C6382192645E000B579D /* Bill */,
+				7E91C635219230FD000B579D /* Basket */,
+				7E91C6302191D7C9000B579D /* All Fishes */,
+				7E91C62F2191D7B4000B579D /* Home */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7E91C61F2191AC25000B579D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C6212191AC38000B579D /* SliderCell.swift */,
+				7E91C6312191D7DD000B579D /* FishCell.swift */,
+				7E91C63B21926712000B579D /* BillCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7E91C6202191AC2B000B579D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C62B2191C4A2000B579D /* Fish.swift */,
+				7E91C6332192302F000B579D /* Bill.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7E91C6232191ACC9000B579D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C6242191AD1A000B579D /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E91C6282191C472000B579D /* Apis Service */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C6292191C480000B579D /* ApiService.swift */,
+			);
+			path = "Apis Service";
+			sourceTree = "<group>";
+		};
+		7E91C62F2191D7B4000B579D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C60B2191A923000B579D /* HomeViewController.swift */,
+				7E91C6262191BA57000B579D /* HomeViewController+CV.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7E91C6302191D7C9000B579D /* All Fishes */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C62D2191D6EE000B579D /* FishViewController.swift */,
+			);
+			path = "All Fishes";
+			sourceTree = "<group>";
+		};
+		7E91C635219230FD000B579D /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C63621923107000B579D /* AddProduct.swift */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		7E91C6382192645E000B579D /* Bill */ = {
+			isa = PBXGroup;
+			children = (
+				7E91C63921926467000B579D /* BillViewer.swift */,
+			);
+			path = Bill;
+			sourceTree = "<group>";
+		};
+		9E28BFDB9F58DC9515C089EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB09D973903D1EA2238B23B3 /* Pods_FreshFishStore.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7E91C61B2191A924000B579D /* Build configuration list for PBXNativeTarget "FreshFishStore" */;
 			buildPhases = (
+				7DBCDD137492E27C84536CAC /* [CP] Check Pods Manifest.lock */,
 				7E91C6022191A923000B579D /* Sources */,
 				7E91C6032191A923000B579D /* Frameworks */,
 				7E91C6042191A923000B579D /* Resources */,
+				74B06B07180116B5E284A29C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +261,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		74B06B07180116B5E284A29C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FreshFishStore/Pods-FreshFishStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ProgressHUD/ProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FreshFishStore/Pods-FreshFishStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DBCDD137492E27C84536CAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FreshFishStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7E91C6022191A923000B579D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E91C6122191A923000B579D /* FreshFishStore.xcdatamodeld in Sources */,
-				7E91C60C2191A923000B579D /* ViewController.swift in Sources */,
+				7E91C6252191AD1A000B579D /* UIView.swift in Sources */,
+				7E91C6342192302F000B579D /* Bill.swift in Sources */,
+				7E91C6272191BA57000B579D /* HomeViewController+CV.swift in Sources */,
+				7E91C62E2191D6EE000B579D /* FishViewController.swift in Sources */,
+				7E91C60C2191A923000B579D /* HomeViewController.swift in Sources */,
+				7E91C63A21926467000B579D /* BillViewer.swift in Sources */,
+				7E91C6322191D7DD000B579D /* FishCell.swift in Sources */,
+				7E91C6222191AC38000B579D /* SliderCell.swift in Sources */,
+				7E91C62A2191C480000B579D /* ApiService.swift in Sources */,
+				7E91C63721923107000B579D /* AddProduct.swift in Sources */,
 				7E91C60A2191A923000B579D /* AppDelegate.swift in Sources */,
+				7E91C63C21926712000B579D /* BillCell.swift in Sources */,
+				7E91C62C2191C4A2000B579D /* Fish.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,37 +465,43 @@
 		};
 		7E91C61C2191A924000B579D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A57896E17F7137EDCC9ADDFA /* Pods-FreshFishStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUS473JQDG;
+				DEVELOPMENT_TEAM = 968U57PY3R;
 				INFOPLIST_FILE = FreshFishStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sherifzekry.FreshFishStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7E91C61D2191A924000B579D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B7B6E782C655375C0F7BF3C /* Pods-FreshFishStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GUS473JQDG;
+				DEVELOPMENT_TEAM = 968U57PY3R;
 				INFOPLIST_FILE = FreshFishStore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.sherifzekry.FreshFishStore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.freshfish;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -340,19 +527,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		7E91C6102191A923000B579D /* FreshFishStore.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				7E91C6112191A923000B579D /* FreshFishStore.xcdatamodel */,
-			);
-			currentVersion = 7E91C6112191A923000B579D /* FreshFishStore.xcdatamodel */;
-			path = FreshFishStore.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 7E91C5FE2191A923000B579D /* Project object */;
 }
